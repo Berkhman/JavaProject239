@@ -43,6 +43,8 @@ System.out.println("Ввежите количество точек");
             }
         }
 
-        System.out.println("Площадь наименьшего треугольника равна " + Math.sqrt(min));
+        double minshort = Math.sqrt(min);
+        System.out.print("Площадь наименьшего треугольника равна ");
+        System.out.printf("%4.1f", minshort);
     }
 }
